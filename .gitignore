@@ -1,0 +1,21 @@
+.gradle/
+build/
+.kotlin/
+out/
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.DS_Store
+
+# Never commit secrets or local credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# Original IDE template retained locally
+*.template-backup
